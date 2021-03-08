@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Poppins', sans-serif
 }
 
 .contenedor{
@@ -21,7 +23,6 @@
 .headerNav{
     width: 1000px;
     height: 300px;
-    /* margin-left: 8em; */
     background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
 }
 .menu-ul{
@@ -32,9 +33,10 @@
 
 .menu-ul a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -47,12 +49,12 @@
     text-align: center;
     font-size: 50px;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-1{
     width: 1000px;
     background-color: white;
-    /* margin-left: 8em; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     
@@ -67,17 +69,93 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1px;
+    grid-column-start: 1;
 
 } 
 
 .texto{
-    padding: 2em;
+    padding: 1.5em;
 }
-
+.texto2{
+    padding: 1.5em; 
+}
+.texto2 h3{
+    font-size: 30px;
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+}
 .texto h2{
     font-size:25px;
+    color: #6dcdd6;
+    margin: 0;
+}
+.mostaza{
+    font-size:25px;
+    margin: 0;
+    color: #fdcd3a;
+}
+.texto h3{
+    font-size: 30px;
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+    margin:0;
 }
 
-.texto h3{
-    font-size:3 5px;
+button{
+    background: transparent;
+    border: 3px solid #aedef4;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.texto2 button{
+    background: transparent;
+    border: 3px solid #fdd457;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif
+
+}
+
+.texto3{
+    padding: 1.5em; 
+}
+
+.texto3 h3{
+    font-size: 30px;
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+    margin:0 ;
+}
+
+.texto3 h2{
+    font-size:25px;
+    color:#ffbbc6;
+    margin: 0;
+}
+
+.texto3 button{
+    background: transparent;
+    border: 3px solid #ffbbc6;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif
 }
