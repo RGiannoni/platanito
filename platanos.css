@@ -6,6 +6,7 @@
 }
 
 .Contenido{
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,8 +22,9 @@
 }
 
 .headerNav{
-    width: 1000px;
-    height: 300px;
+    width: 73vw;
+    height: 100vh;
+   
     background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
 }
 .menu-ul{
@@ -61,9 +63,7 @@
 }
 
 .articulos img{
-    width: 499px;
-    height: 336px;
-    /* background-color: rebeccapurple; */
+    max-width:100%;
 }
 .articulos{
     display: grid;
@@ -158,4 +158,49 @@ button{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif
+}
+
+.imagenes img{ 
+    width: 247.5px;
+    margin-top: -11px;
+}
+
+.imagenes2 img{
+    width: 200px;
+}
+
+.section-img2{
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+   
+}
+.header-img h2{
+    font-size:25px;
+    color:#ffbbc6;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-img h3{
+    width: 400px;
+    font-size:35px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+}
+
+.header-img{
+    margin: 2em;
+}
+
+.imagenes2{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-right: 6em;
 }
