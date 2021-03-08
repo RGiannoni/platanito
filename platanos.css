@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+
+.contenedor{
+    max-width: 1250px;
+    margin: 0 auto;
+    background-image: url(./img/49320319-patrón-transparente-de-color-amarillo-plátano-maduro-sobre-un-fondo-azul.jpg);
+
+}
+
+.headerNav{
+    width: 1000px;
+    height: 300px;
+    margin-left: 8em;
+    background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
+}
+.menu-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu-ul a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.menu-ul img{
+    width: 20px;
+    margin-right: 16px;
+}
+
+.headerNav h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.section-1{
+    width: 1000px;
+    background-color: white;
+    margin-left: 8em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.articulos img{
+    width: 499px;
+    height: 336px;
+    /* background-color: rebeccapurple; */
+}
+.articulos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+
+} 
+
+.texto{
+    padding: 2em;
+}
+
+.texto h2{
+    font-size:25px;
+}
+
+.texto h3{
+    font-size:3 5px;
+}
