@@ -5,6 +5,11 @@
 
 }
 
+.Contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .contenedor{
     max-width: 1250px;
@@ -16,7 +21,7 @@
 .headerNav{
     width: 1000px;
     height: 300px;
-    margin-left: 8em;
+    /* margin-left: 8em; */
     background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
 }
 .menu-ul{
@@ -47,7 +52,7 @@
 .section-1{
     width: 1000px;
     background-color: white;
-    margin-left: 8em;
+    /* margin-left: 8em; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     
