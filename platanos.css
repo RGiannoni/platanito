@@ -204,3 +204,75 @@ button{
     gap: 5px;
     margin-right: 6em;
 }
+
+.section-favicon{
+    width: 596px;
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    
+}
+.section-favicon img{
+    width: 30px;
+    margin-top: 2em;
+   
+}
+
+.favicon{
+    width: 145px;
+    height: 140px;
+    background-color: #aedef4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.favicon:nth-child(2){
+    background-color: #fdd24a;
+}
+.favicon:nth-child(3){
+    background-color: #ffbbc6;
+}
+
+.section-favicon h3{
+    color: white;
+}
+
+.section-contacto{
+    background-image: url(./img/piña.jpg);
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-contacto h2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+
+.name{
+    width: 400px;
+}
+
+.lastName{
+    width: 400px;
+}
+
+.mensaje{
+    width: 400px;
+    height: 100px;
+    margin-top: 0.4em;
+}
+
+.enviar{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 0.8em;
+    margin-left:12em ;
+}
