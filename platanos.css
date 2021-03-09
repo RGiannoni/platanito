@@ -256,17 +256,26 @@ button{
 }
 
 .name{
+    height: 30px;
     width: 400px;
+    border: 2px solid #ffff;
+    background-color: transparent;
 }
 
 .lastName{
+    margin-top: 0.5em;
+    height: 30px;
     width: 400px;
+    border: 2px solid #ffff;
+    background-color: transparent;
 }
 
 .mensaje{
     width: 400px;
     height: 100px;
     margin-top: 0.4em;
+    border: 2px solid #ffff;
+    background-color: transparent;
 }
 
 .enviar{
@@ -275,4 +284,14 @@ button{
     height: 30px;
     margin-top: 0.8em;
     margin-left:12em ;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+.mensaje::placeholder{
+    display: flex;
+    margin-top: 1em;
 }
