@@ -22,10 +22,9 @@
 }
 
 .headerNav{
-    width: 73vw;
-    height: 100vh;
-   
-    background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
+    width: 80%;
+     background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
+     z-index: 50;
 }
 .menu-ul{
     display: flex;
@@ -55,7 +54,7 @@
 }
 
 .section-1{
-    width: 1000px;
+    width: 80%;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -63,13 +62,16 @@
 }
 
 .articulos img{
-    max-width:100%;
+    width:100%;
+    margin-top: -7px;
+    height: 480px;
 }
 .articulos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1px;
     grid-column-start: 1;
+   
 
 } 
 
@@ -161,8 +163,14 @@ button{
 }
 
 .imagenes img{ 
-    width: 247.5px;
-    margin-top: -11px;
+    width: 250px;
+
+}
+.imagenes{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: -7px;
 }
 
 .imagenes2 img{
@@ -170,7 +178,7 @@ button{
 }
 
 .section-img2{
-    width: 1000px;
+    width: 80%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -258,7 +266,7 @@ button{
 .name{
     height: 30px;
     width: 400px;
-    border: 2px solid #ffff;
+    border: 3px solid #ffff;
     background-color: transparent;
 }
 
@@ -266,7 +274,7 @@ button{
     margin-top: 0.5em;
     height: 30px;
     width: 400px;
-    border: 2px solid #ffff;
+    border: 3px solid #ffff;
     background-color: transparent;
 }
 
@@ -274,7 +282,7 @@ button{
     width: 400px;
     height: 100px;
     margin-top: 0.4em;
-    border: 2px solid #ffff;
+    border: 3px solid #ffff;
     background-color: transparent;
 }
 
@@ -294,4 +302,44 @@ input::placeholder{
 .mensaje::placeholder{
     display: flex;
     margin-top: 1em;
+}
+
+.boton{
+
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:#ffbbc6;
+    background:#ffff;
+    border:0px;
+    width:80px;
+    height:25px;
+    margin-left: 16em;
+    margin-top: 1em;
+
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    background-color: #96d1ee;
+}
+
+.texto-footer h2{
+    font-size: 18px;
+    /* width: 120px; */
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto-footer{
+    width: 150px;
+}
+
+.texto-footer p{
+    font-size: 13px;
+    /* width: 150px; */
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
