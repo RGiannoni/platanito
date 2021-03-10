@@ -132,9 +132,6 @@ button{
 
 }
 
-.texto3{
-    padding: 1.5em; 
-}
 
 .texto3 h3{
     font-size: 30px;
@@ -342,4 +339,372 @@ input::placeholder{
     /* width: 150px; */
     color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    
+    }
+    
+    .Contenido{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Old Standard TT', serif;
+        font-family: 'Poppins', sans-serif
+    }
+    
+    .contenedor{
+        max-width: 600px;
+        margin: 0 auto;
+        background-image: url(./img/49320319-patrón-transparente-de-color-amarillo-plátano-maduro-sobre-un-fondo-azul.jpg);
+    
+    }
+    
+    .headerNav{
+        width: 80%;
+         background-image: url(./img/51102174-piña-madura-sobre-un-fondo-de-madera-de-color-amarillo.jpg);
+         z-index: 50;
+    }
+    .menu-ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    .menu-ul a{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    
+    .menu-ul img{
+        width: 20px;
+        margin-right: 16px;
+    }
+    
+    .headerNav h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .section-1{
+        width: 80%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    
+    .articulos img{
+        width: 240px;
+        height: 300px;
+    }
+    .articulos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1px;
+        grid-column-start: 1;
+       
+    
+    } 
+
+    .texto{
+        width: 100px;
+        margin-right: 15em;
+    }
+
+    .texto p{
+        font-size: 10px;
+        width: 150px;
+    }
+     
+    .texto2 p{
+        font-size: 10px;
+        width: 150px;
+    }
+    .texto3 p{
+        font-size: 10px;
+        width: 150px;
+    }
+     
+    .texto2 h3{
+        font-size: 19px;
+        width: 250px;
+        font-family: 'Oswald', sans-serif;
+        margin:0;
+    }
+    .texto h2{
+        font-size:23px;
+        color: #6dcdd6;
+        margin: 0;
+    }
+    .mostaza{
+        font-size:21px;
+        margin: 0;
+        color: #fdcd3a;
+    }
+    .texto h3{
+        font-size: 19px;
+        width: 250px;
+        font-family: 'Oswald', sans-serif;
+        margin:0;
+    }
+    
+    button{
+        background: transparent;
+        border: 3px solid #aedef4;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 12px;
+        margin: 4px 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    .texto2 button{
+        background: transparent;
+        border: 3px solid #fdd457;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 12px;
+        margin: 4px 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif
+    
+    }
+    
+
+    
+    .texto3 h3{
+        font-size: 19px;
+        width: 250px;
+        font-family: 'Oswald', sans-serif;
+        margin:0 ;
+    }
+    
+    .texto3 h2{
+        font-size:23px;
+        color:#ffbbc6;
+        margin: 0;
+    }
+    
+    .texto3 button{
+        background: transparent;
+        border: 3px solid #ffbbc6;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 12px;
+        margin: 4px 2px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif
+    }
+    
+    .imagenes img{ 
+        width: 250px;
+    
+    }
+    .imagenes{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: -7px;
+        display: none;
+    }
+    
+    .imagenes2 img{
+        width: 200px;
+    }
+    
+    .section-img2{
+        width: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         
+       
+    }
+    .header-img h2{
+        font-size:25px;
+        color:#ffbbc6;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .header-img h3{
+        width: 400px;
+        font-size:35px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        margin: 0 auto;
+    }
+    
+    .header-img{
+        margin: 2em;
+    }
+    
+    .imagenes2{
+        width: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        margin-right: 6em;
+    }
+    
+    .section-favicon{
+        width: 596px;
+        margin: 2em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap:10px;
+        
+    }
+    .section-favicon img{
+        width: 30px;
+        margin-top: 2em;
+       
+    }
+    
+    .favicon{
+        width: 145px;
+        height: 140px;
+        background-color: #aedef4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    .favicon:nth-child(2){
+        background-color: #fdd24a;
+    }
+    .favicon:nth-child(3){
+        background-color: #ffbbc6;
+    }
+    
+    .section-favicon h3{
+        color: white;
+    }
+    
+    .section-contacto{
+        background-image: url(./img/piña.jpg);
+        width: 80%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-contacto h2{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 45px;
+    }
+    
+    .name{
+        height: 30px;
+        width: 400px;
+        border: 3px solid #ffff;
+        background-color: transparent;
+    }
+    
+    .lastName{
+        margin-top: 0.5em;
+        height: 30px;
+        width: 400px;
+        border: 3px solid #ffff;
+        background-color: transparent;
+    }
+    
+    .mensaje{
+        width: 400px;
+        height: 100px;
+        margin-top: 0.4em;
+        border: 3px solid #ffff;
+        background-color: transparent;
+    }
+    
+    .enviar{
+        background-color: white;
+        width: 100px;
+        height: 30px;
+        margin-top: 0.8em;
+        margin-left:12em ;
+    }
+    
+    input::placeholder{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        
+    }
+    .mensaje::placeholder{
+        display: flex;
+        margin-top: 1em;
+    }
+    
+    .boton{
+    
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:#ffbbc6;
+        background:#ffff;
+        border:0px;
+        width:80px;
+        height:25px;
+        margin-left: 16em;
+        margin-top: 1em;
+    
+    }
+    
+    .section-footer{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        background-color: #96d1ee;
+    }
+    
+    .texto-footer h2{
+        font-size: 18px;
+        /* width: 120px; */
+        color: white;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .texto-footer{
+        width: 150px;
+    }
+    
+    .texto-footer p{
+        font-size: 13px;
+        /* width: 150px; */
+        color: white;
+        font-family: 'Oswald', sans-serif;
+    }
 }
